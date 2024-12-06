@@ -223,6 +223,147 @@ for (let i = 1; i <= 9; i++) {
 
 console.log(str)*/
 
+/*
+for (let i = 10; i < 1000; i++) {
+    let srt = String(i)
+
+    if (srt[0] === "1"){
+        console.log(i)
+        console.log(srt[0])
+    }
+}
+*/
+
+/*for (let i = 10; i < 1000; i++) {
+    let srt = String(i)
+        console.log(`сумма первой и второй цифры: ${srt[0] + srt[1]}`)
+}*/
+
+/*
+for (let i = 10; i < 1000; i++) {
+    let srt = String(i)
+
+    if (srt[0] === "1"){
+        console.log(i)
+    } else {
+        console.log('...')
+    }
+}
+*/
+
+/*
+for (let i = 10; i < 1000; i++) {
+    let srt = String(i)
+
+    if (Number(srt[0]) + Number(srt[1]) === 5){
+        console.log(`${Number(srt[0])} + ${Number(srt[1])} = 5`)
+        console.log(i)
+    } else {
+        console.log('...')
+    }
+}
+*/
+
+//..............................................
+
+/*let arr = [1,2,3,4,5,6,7,8,0,9]
+
+for (let i = 0; i < arr.length; i++) {
+    if(arr[i] === 0) {
+        break;
+    }
+    console.log(arr[i])
+}*/
+
+/*
+
+let arr = [1,2,3, -24, 4,5,6,7,8,0,9]
+let res = 0
+
+for (let i = 1; i < arr.length; i++) {
+    res += arr[i]
+
+    if(arr[i] <= 0) {
+        break;
+    }
+
+    console.log(res)
+}
+*/
+
+/*let arr = [1,2,3, -24, 4,5,6,7,8,0,9]
+
+for (let i = 0; i < 5; i++) {
+    console.log(arr[i])
+    if (  arr[i] === 3 ) {
+        console.log(`позиция первого числа 3: ${arr[i] - 1}`)
+        break
+    }
+}*/
+
+/*
+let res = 0
+for (let i = 1; i <= 100; i++) {
+   res += i
+    if (res > 100) {
+        console.log(i)
+        break
+    }
+}
+*/
+
+/*for (let i = 1; i <= 9; i++) {
+    for (let j = 1; j <= 3; j++) {
+        document.write(i);
+    }
+}*/
+
+/*for (let i = 1; i <= 3; i++) {
+    for (let j = 1; j <= 3; j++){
+        document.write(` ${i}${j} `);
+    }
+}*/
+
+let arr = []
+
+for (let i = 0; i < 10; i++) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
