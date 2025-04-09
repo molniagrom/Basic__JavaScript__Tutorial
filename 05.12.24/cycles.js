@@ -427,14 +427,51 @@ for (let i = 1; i <= 100; i++) {
 //
 // console.log(newArr)
 
+// let arr = [1, 2, 3, 4, 3, 5];
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         console.log('+++'); // выведет несколько раз
+//         break;
+//     }
+// }
 
 
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let flag = false
+//
+// for (elem of arr) {
+//     if(elem === "c") {
+//         flag = true
+//         break;
+//     }
+// }
+//
+// if (flag) {
+//     console.log("+++")
+// } else {
+//     console.log("---")
+// }
 
-
-
-
-
-
+// const isPrime = (num) => {
+//     if (num < 2) return false
+//
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false
+//         }
+//     }
+//
+//     return true
+// }
+//
+// let number = 12;
+//
+// if (isPrime(number)) {
+//     console.log("это простое число");
+// } else {
+//     console.log("это не простое число");
+// }
 
 
 
