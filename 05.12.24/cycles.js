@@ -324,26 +324,108 @@ for (let i = 1; i <= 100; i++) {
     }
 }*/
 
-let arr = []
+// let arr = []
+//
+// for (let i = 0; i < 10; i++) {}
 
-for (let i = 0; i < 10; i++) {}
-
-
-
-
+//....................................................
 
 
+// let obj = {x: 1, y: 2, z: 3};
+//
+// let keys = Object.keys(obj);
+// console.log(keys);
 
 
+// let obj = {x: 1, y: 2, z: 3};
+//
+// console.log('x' in obj);
+// console.log('w' in obj);
+
+// let obj = {x: 1, y: 2, z: 3};
+// delete obj.x;
+//
+// console.log('x' in obj);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+//
+// arr1[0] = 'a';
+// console.log(arr2);
 
 
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+//
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+//
+// console.log(arr1);
 
 
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+//
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+//
+// console.log(arr2);
 
 
+// const arr = ['a', 'b', 'c'];
+// arr[1] = '!';
+// console.log(arr);
+
+// let res;
+//
+// if (true) {
+//     res = '!';
+// }
+//
+// console.log(res);
 
 
+// let num = 5;
+// let res;
+//
+// if (num >= 0) {
+//      res = 1;
+// } else {
+//      res = 2;
+// }
+//
+// console.log(res);
 
+
+// let age = 17;
+// let adult
+//
+// if (age >= 18) {
+//      adult = true;
+// } else {
+//      adult = false;
+// }
+//
+// console.log(adult);
+
+
+// for (let i = 1; i <= 3; i++) {
+//     for (let j = 1; j <= 3; j++) {
+//         document.write(`${i}${j} `)
+//     }
+// }
+
+// let arr = [0, -8, 40, 93, 75, -96, -86]
+// let newArr = []
+//
+// for (let i = 0; i <= arr.length; i++) {
+//     if (arr[i] > 0){
+//         newArr.push(arr[i])
+//     }
+//
+// }
+//
+// console.log(newArr)
 
 
 
