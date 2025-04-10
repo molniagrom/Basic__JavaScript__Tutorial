@@ -118,24 +118,49 @@
 // console.log(arr.slice(0, 3))
 
 
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 
 // arr.splice(1, 2)
 // console.log(arr)
 
 
-arr.splice(1, 1, 'a', 'b', 2);
-arr.splice(6, 0, 'c');
-arr.splice(9, 0, 'e');
-console.log(arr);
+// arr.splice(1, 1, 'a', 'b', 2);
+// arr.splice(6, 0, 'c');
+// arr.splice(9, 0, 'e');
+// console.log(arr);
 
 
+// let arr = [1, 2, 3, 4, 5]
+// console.log(arr.includes(3))
+
+// console.log(arr.find(n => n === 3))
+
+// let obj = {a: 1, b: 2, c: 3};
+//
+// console.log(Object.keys(obj));
+
+// Код должен найти сумму цифр числа:
+
+// let num = 12345;
+// let arr = String(num).split('');
+//
+// let sum = 0;
+// for (let digit of arr) {
+//     sum += Number(digit);
+// }
+//
+// console.log(sum);
 
 
-
-
-
-
+// let num = 12345;
+// let arr = String(num).split('');
+//
+// let prod = 1;
+// for (let digit of arr) {
+//     prod *= Number(digit);
+// }
+//
+// console.log(prod);
 
 
 
