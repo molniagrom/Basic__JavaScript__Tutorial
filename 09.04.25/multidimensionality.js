@@ -225,18 +225,155 @@
 
 //.....................................................................
 
-let arr = [];
+// let arr = [];
+//
+// for (let i = 0, k = 2; i < 4; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i].push(k);
+//         k += 2;
+//     }
+// }
+//
+// console.log(arr);
 
-for (let i = 0, k = 1; i < 4;
-     i++) {
-    arr[i] = [];
+//.....................................................................
+// let exemp = [
+//     [
+//         [1, 2], [3, 4]
+//     ],
+//     [
+//         [5, 6], [7, 8]
+//     ]
+// ]
 
-    for (let j = 0; j < 2; j++) {
-        arr[i].push(k++);
-    }
-}
+// let arr = [];
+// let count = 1
+//
+// for (let i = 0; i < 2; i++) {
+//     arr[i] = []
+//     for (let j = 0; j < 2; j++) {
+//         arr[i][j] = []
+//         arr[i][j].push(count++)
+//         arr[i][j].push(count++)
+//     }
+// }
+//
+// console.log(arr);
 
-console.log(arr);
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++
+//     }
+// }
+//
+// console.log(arr);
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3;
+//      i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3;
+//      i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3;
+//      i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
