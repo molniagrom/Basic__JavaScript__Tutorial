@@ -814,31 +814,81 @@
 // console.log(obj[key1]['key4']);
 
 
-let users = [
-    {
-        name: 'name1',
-        surn: 'surn1',
-    },
-    {
-        name: 'name2',
-        surn: 'surn2',
-    },
-    {
-        name: 'name3',
-        surn: 'surn3',
-    },
-];
+// let employees = [
+//     {
+//         name: 'name1',
+//         salary: 300,
+//         age: 28,
+//     },
+//     {
+//         name: 'name2',
+//         salary: 400,
+//         age: 29,
+//     },
+//     {
+//         name: 'name3',
+//         salary: 500,
+//         age: 30,
+//     },
+// ];
+//
+// employees.push(
+//     {
+//         name: 'name4',
+//         salary: 600,
+//         age: 31,
+//     },
+//     {
+//         name: 'name5',
+//         salary: 700,
+//         age: 32,
+//     }
+// )
+//
+// console.log(employees)
 
 
+// let affairs = {
+//     '2019-12-28': ['data11', 'data12', 'data13'],
+//     '2019-12-29': ['data21', 'data22', 'data23'],
+//     '2019-12-30': ['data31', 'data32', 'data33'],
+// }
+//
+// affairs['2019-12-29'].push('data222')
+// affairs['2019-12-31'] = []
+// affairs['2019-12-31'].push('data333', 'data334')
+//
+// console.log(affairs)
 
-
-
-
-
-
-
-
-
+// let students = {
+//     'group1': {
+//         'subgroup11': ['student111', 'student112',
+//             'student113'],
+//         'subgroup12': ['student121', 'student122',
+//             'student123'],
+//     },
+//     'group2': {
+//         'subgroup21': ['student211', 'student212',
+//             'student213'],
+//         'subgroup22': ['student221', 'student222',
+//             'student223'],
+//     },
+//     'group3': {
+//         'subgroup31': ['student311', 'student312',
+//             'student313'],
+//         'subgroup32': ['student321', 'student322',
+//             'student323'],
+//     },
+// };
+//
+// students.group1.subgroup11.push('student114')
+// students.group1.subgroup13 = []
+// students.group4 = {}
+// students.group4.subgroup41 = ['student411', 'student412', 'student413']
+// students.group4.subgroup42 = ['student421', 'student422', 'student423']
+// students.group4.subgroup43 = ['student431', 'student432', 'student433']
+//
+// console.log(students)
 
 
 
