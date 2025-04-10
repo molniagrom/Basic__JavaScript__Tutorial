@@ -83,6 +83,54 @@
 // console.log(str.endsWith('.html'))
 // console.log(str.includes('book'))
 
+// let srt = '1-2-3-4-5';
+// srt = srt.replace(/-/g, '.'); // Используем глобальный флаг 'g' для замены всех дефисов
+// console.log(srt); // Вывод: 1.2.3.4.5
+
+// let srt = '1-2-3-4-5';
+// srt = srt.replace(/-/g, '');
+// console.log(srt.split(""))
+
+
+// let str = '12345';
+// let arr = str.split('');
+// console.log(arr);
+
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.join("-"))
+
+
+// let arr = [1, 2, 3]
+// const first = arr.shift()
+// const last = arr.pop()
+// const add = arr.push(4, 5, 6)
+// const add2 = arr.unshift(4, 5, 6)
+// console.log(last)
+// console.log(first)
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5]
+// let newArr = [
+//     arr.slice(3,5)
+// ]
+// console.log(newArr)
+// console.log(arr.slice(0, 3))
+
+
+let arr = [1, 2, 3, 4, 5]
+
+// arr.splice(1, 2)
+// console.log(arr)
+
+
+arr.splice(1, 1, 'a', 'b', 2);
+arr.splice(6, 0, 'c');
+arr.splice(9, 0, 'e');
+console.log(arr);
+
+
+
 
 
 
