@@ -122,12 +122,61 @@
 // console.log( func(10) );
 // console.log( func(-5) );
 
+// function func(num) {
+//     let sum = 0;
+//
+//     for (let i = 1; i <= num; i++) {
+//         sum += i;
+//     }
+//
+//     return sum;
+// }
+//
+// console.log( func(5) );
+
+// function func(num) {
+//
+//     let iterations = 0
+//
+//     while (num >= 10) {
+//         iterations++
+//         num = num / 2
+//     }
+//
+//     return iterations;
+//
+// }
+//
+// console.log(func(100));
+
+// function func(num1, num2) {
+//
+//     if (num1 > 0 && num2 > 0) {
+//         return num1 * num2;
+//     } else {
+//         return num1 - num2;
+//     }
+// }
+//
+// console.log(func(3, 4));
 
 
+// function isCount(arr) {
+//
+//     for (let i = 0; i < arr.length; i++) {
+//
+//         if (arr[i] % 2 !== 0) {
+//             return false
+//         }
+//     }
+//
+//     return true
+// }
+//
+// console.log(isCount([2, 4, 6, 8, 9, 10]))
 
 
-
-
+//Флаги в функциях JavaScript №2
 
 
 
