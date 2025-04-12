@@ -178,6 +178,46 @@
 
 //Флаги в функциях JavaScript №2
 
+// function func(num){
+//     let numStr = num.toString().split("")
+//     let res = true
+//     for (let i = 0; i < numStr.length; i++) {
+//         if (numStr[i] % 2 === 0) {
+//             res = false
+//         }
+//     }
+//     return res
+// }
+//
+// console.log(func(135879))
+
+// function verification(arguments) {
+//     for (let i = 0; i < arguments.length; ++i) {
+//         if (arguments[i] === arguments[i - 1]) {
+//             return true
+//         }
+//     }
+//     return false
+// }
+
+// verification([1, 2, 3, 3, 4, 5]) ? console.log('совпадения есть') : console.log('совпадений нет')
+
+// function func(arr) {
+//     for (let i = 1; i < arr.length; ++i) {
+//         if (arr[i] === arr[i - 1]) {
+//             return true; // Возвращаем true, если найдено совпадение
+//         }
+//     }
+//     return false; // Возвращаем false, если совпадений не найдено
+// }
+//
+// console.log(func([3, 3, 8, 6, 4, 7, 2]) ? "совпадения есть" : "совпадений нет");
+
+
+
+
+
+
 
 
 
