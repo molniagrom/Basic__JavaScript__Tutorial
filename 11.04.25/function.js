@@ -214,17 +214,202 @@
 // console.log(func([3, 3, 8, 6, 4, 7, 2]) ? "совпадения есть" : "совпадений нет");
 
 
+// function func(a, b) {
+//     return a !== b;
+// }
+//
+// console.log(func(1, 1))
+
+// function func(num) {
+//     return num >= 0;
+// }
+//
+// console.log(func(1))
+
+// function getAverageScore(arr) {
+//     let res = 0;
+//
+//     for (let elem of arr) {
+//         res += elem;
+//     }
+//
+//     return res / arr.length;
+// }
+//
+// console.log(getAverageScore([5, 4, 5, 4, 5]))
+
+// function average(arr) {
+//     if (!Array.isArray(arr)) {
+//         throw new TypeError("Argument must be an array.");
+//     }
+//     if (arr.length === 0) return 0;
+//
+//     const sum = arr.reduce((acc, val) => {
+//         if (typeof val !== "number") {
+//             throw new TypeError("All elements must be numbers.");
+//         }
+//         return acc + val;
+//     }, 0);
+//
+//     return sum / arr.length;
+// }
+
+//..................................................................
+
+// function getSumInArray(res, arr) {
+//     if (!arr.every(elem => typeof elem === "number")) {
+//         throw new TypeError("All elements must be numbers.");
+//     }
+//     return arr.reduce((acc, elem) => acc + elem, res);
+// }
+//
+// function average(arr1, arr2) {
+//
+//     if (!Array.isArray(arr1 && arr2)) {
+//         throw new TypeError("Argument must be an array.");
+//     }
+//     let [res1, res2] = [90, 57]
+//
+//     return getSumInArray(res1, arr1) / getSumInArray(res2, arr2)
+// }
+// console.log(average([5, 4, 5, 4, 5], [5, 4, 5, 4, 5]))
+
+//..................................................................
+
+// const getMultiplication = arr => arr.reduce((acc, elem) => acc * elem);
+// console.log(getMultiplication([5, 4, 5, 4, 5]))
+
+//..................................................................
+// function func1(a) {
+//     return a
+// }
+// function func2(b) {
+//     return b
+// }
+//
+// console.log( func1(3) + func2(5));
+
+
+// function sum(arr) {
+//     let res = 0;
+//
+//     for (let elem of arr) {
+//         res += elem;
+//     }
+//     return res;
+//
+// }
+//
+// console.log(sum([1, 2, 3, 4, 5]));
+
+
+// let arr = [1, 2, 3, 4, 5];
+//
+// function func(arr) {
+//     let res = 0;
+//
+//     for (let elem of arr) {
+//         res += elem;
+//     }
+//
+//     return res;
+// }
+
+
+// function func1() {
+//     return 3;
+// }
+// function func2() {
+//     return 5;
+// }
+//
+// console.log( func1() + func2() );
+
+
+// let sumEl = sum([1, 2, 3, 4, 5]);
+// console.log(sumEl);
+//
+// function sum(arr) {
+//     let sum = 0;
+//
+//     for (let elem of arr) {
+//         sum += elem;
+//     }
+//
+//     return sum;
+// }
+
+
+// let res = sum([1, 2, 3, 4, 5]);
+// console.log(res);
+//
+// function sum(arr) {
+//     let sum = 0;
+//
+//     for (let elem of arr) {
+//         sum += elem;
+//     }
+//     return sum;
+// }
+
+
+// function add(num) {
+//     if (num <= 9) {
+//         return '0' + num;
+//     }
+//     return num;
+// }
+//
+// console.log(add(7))
+
+
+// let arr = [1, 2, 3, 4, 5];
+//
+// let sumEl = sum(arr);
+// console.log(sumEl);
+//
+// function sum(arr) {
+//     let res = 0;
+//
+//     for (let elem of arr) {
+//         res += elem;
+//     }
+//
+//     return res;
+// }
+
+
+// let num = 12345;
+// let res = getDigitsSum(num);
+// console.log(res);
+//
+// function getDigitsSum(num) {
+//     let arr = String(num).split('');
+//     let sum = 0;
+//
+//     for (let elem of arr) {
+//         sum += Number(elem);
+//     }
+//
+//     return sum;
+// }
 
 
 
-
-
-
-
-
-
-
-
+// console.log(isPrime(13)); // должен вывести true
+//
+// function isPrime(num) {
+//     if (num < 2) {
+//         return false;
+//     }
+//
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
 
 
