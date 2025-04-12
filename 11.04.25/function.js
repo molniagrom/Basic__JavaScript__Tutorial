@@ -411,6 +411,140 @@
 //     return true;
 // }
 
+// let arr = [1, 2, 3, 4, 5, 6];
+//
+// console.log(sum(arr));
+//
+// function sum(arr) {
+//     let res = 0;
+//
+//     for (let elem of arr) {
+//         res += elem;
+//     }
+//
+//     return res;
+// }
+
+
+// function getDivisors(num) {
+//     if (typeof num !== "number" || num <= 0) {
+//         throw new Error("Argument must be a positive number.");
+//     }
+//
+//     let divisors = [];
+//     for (let i = 1; i <= num; i++) {
+//         if (num % i === 0) {
+//             divisors.push(i);
+//         }
+//     }
+//     return divisors;
+// }
+//
+// console.log(getDivisors(12)); // [1, 2, 3, 4, 6, 12]
+
+
+
+// function getArraySimvolsOfStr(str) {
+//     return str.split('');
+//
+// }
+//
+// console.log(getArraySimvolsOfStr("jkfdogkdk"))
+
+
+// function reverse(str) {
+//     return str.split('').reverse().join('');
+// }
+//
+// console.log(reverse("привет"))
+
+// function capitalizeFirstLetter(str) {
+//     return str.charAt(0).toUpperCase() + str.slice(1);
+// }
+//
+// console.log(capitalizeFirstLetter("hello"));
+
+
+// function capitalizeFirstLetterEveryWord(str) {
+//     return str.split(' ')
+//         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//         .join(' ');
+// }
+//
+// console.log(capitalizeFirstLetterEveryWord("hello world how are you"));
+
+
+// function getNumbersArray(num) {
+//     let arr = [];
+//     for (let i = 1; i <= num; i++) {
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+//
+// console.log(getNumbersArray(10));
+
+
+
+// const getSumNumbersInNumber = num => String(num).split("").reduce((acc, elem) => Number(acc) + Number(elem));
+// console.log(getSumNumbersInNumber(123456));
+
+
+
+// function isLeapYear(year) {
+//     if (year % 4 === 0) {
+//         if (year % 100 === 0) {
+//             if (year % 400 === 0) {
+//                 return true;
+//             } else {
+//                 return false;
+//             }
+//         } else {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+//
+// console.log(isLeapYear(2008) ? "Високосный" : "Не високосный");
+
+
+// function getDayInSeconds(seconds){
+//     return seconds / 86400;
+//     // return Math.round(days / 10) * 10;
+// }
+//
+// console.log(getDayInSeconds(397878));
+
+// function randomElemInArray(...arr) {
+//     return arr[
+//         Math.floor(
+//             Math.random() * arr.length)
+//         ];
+// }
+//
+// console.log(randomElemInArray(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+
+
+// function isSimpleNumber(num) {
+//     if (num < 2) {
+//         return true;
+//     }
+//
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+//
+// console.log(isSimpleNumber(16) ? "Простое" : "Непростое");
+
+
+
+
+
 
 
 
