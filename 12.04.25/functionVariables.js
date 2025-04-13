@@ -43,14 +43,14 @@
 // func();
 // console.log(num);
 
-function func(arr) {
-    let newArr = arr;
-    newArr[0] = '!';
-}
-
-let arr = [1, 2, 3];
-func(arr);
-console.log(arr);
+// function func(arr) {
+//     let newArr = arr;
+//     newArr[0] = '!';
+// }
+//
+// let arr = [1, 2, 3];
+// func(arr);
+// console.log(arr);
 
 
 
