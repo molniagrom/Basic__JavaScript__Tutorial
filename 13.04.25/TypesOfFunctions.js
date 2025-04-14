@@ -44,13 +44,73 @@
 //     console.log('!');
 // }
 
-func()
-
-function func() {
-    console.log('!');
-} + console.log('!');
+// func()
+//
+// function func() {
+//     console.log('!');
+// } + console.log('!');
 
 //Массив с анонимными функциями в JavaScript (237)
+
+
+// let arr = [
+//     function() {return 1},
+//     function() {return 2},
+//     function() {return 3},
+// ];
+//
+// for (let funk of arr) {
+//     console.log(funk())
+// }
+
+
+// let obj= {
+//     func1: function() {return 1},
+//     func2: function() {return 2},
+//     func3: function() {return 3},
+// }
+
+// console.log(obj.func1() + obj.func2() + obj.func3())
+
+// for (let funk in obj) {
+//     console.log(obj[funk]())
+// }
+
+
+// let obj = {
+//     func1: function(arrOfNumbers) {
+//         return arrOfNumbers.reduce((a, b) => a + b, 0)
+//     },
+//     func2: function(arrOfNumbers) {
+//         return arrOfNumbers.reduce((sum, num) => sum + num ** 2, 0)
+//     },
+//     func3: function(arrOfNumbers) {
+//         return arrOfNumbers.reduce((sum, num) => sum + num ** 3, 0)
+//     },
+// }
+//
+// console.log(obj.func3([1, 2, 3, 4, 5]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
