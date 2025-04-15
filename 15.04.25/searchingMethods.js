@@ -34,7 +34,7 @@
 
 //.......................................................
 
-let mixedNumbers = [5, -3, 8, -1, 2, -7, 10, 50, -4];
+// let mixedNumbers = [5, -3, 8, -1, 2, -7, 10, 50, -4];
 // let mixedStrings = ["hello", "world", "javascript", "code", "example"];
 // let arr = [1, 2, [3, 4], 5, [6, 7]]
 // console.log(mixedNumbers.filter(x => x > 0));
@@ -62,9 +62,25 @@ let mixedNumbers = [5, -3, 8, -1, 2, -7, 10, 50, -4];
 
 //........................................................
 
+// const products = [
+//     { name: "Телефон", price: 500 },
+//     { name: "Ноутбук", price: 1200 },
+//     { name: "Планшет", price: 800 },
+//     { name: "Монитор", price: 1500 }
+// ];
 
+// console.log(products.findIndex(x => x.price > 1000))
 
+//........................................................
 
+// const purchases = [
+//     { item: "Молоко", price: 80 },
+//     { item: "Хлеб", price: 40 },
+//     { item: "Сыр", price: 250 },
+//     { item: "Яблоки", price: 100 }
+// ];
+//
+// console.log(purchases.reduce((sum, item) => sum + item.price, 0));
 
 
 
