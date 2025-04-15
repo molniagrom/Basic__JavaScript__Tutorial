@@ -34,7 +34,7 @@
 
 //.......................................................
 
-// let mixedNumbers = [5, -3, 8, -1, 2, -7, 10, 50, -4];
+let mixedNumbers = [5, -3, 8, -1, 2, -7, 10, 50, -4];
 // let mixedStrings = ["hello", "world", "javascript", "code", "example"];
 // let arr = [1, 2, [3, 4], 5, [6, 7]]
 // console.log(mixedNumbers.filter(x => x > 0));
@@ -44,9 +44,23 @@
 // console.log(arr.filter(x => !Array.isArray(x)));
 
 //.......................................................
+// console.log(mixedNumbers.every(x => x > 0));
+// console.log(mixedNumbers.every((x, index) => (x * index) < 30));
+// console.log(mixedNumbers.some(x => x > 0));
+// console.log(mixedNumbers.some((x, index) => (x * index) > 30));
 
+//........................................................
 
+// const people = [
+//     { name: "Иван", age: 25 },
+//     { name: "Мария", age: 35 },
+//     { name: "Алексей", age: 28 },
+//     { name: "Екатерина", age: 40 }
+// ];
+//
+// console.log(people.find(x => x.age > 30) || null)
 
+//........................................................
 
 
 
