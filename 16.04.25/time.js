@@ -158,11 +158,33 @@
 
 //......................................................................
 
+// function checkDate(year, month, day) {
+//     let date = new Date(year, month, day);
+//
+//     if (date.getFullYear() === year && date.getMonth() === month && date.getDate() === day) {
+//         console.log('корректна');
+//     } else {
+//         console.log('некорректна');
+//     }
+// }
+//
+// checkDate(2025, 0, 30)
 
+//.................................................................
 
+// let now = new Date();
+// let date = new Date(now.getFullYear(), 11, 31);
+// console.log(date.getDay())
 
+//...............................................................
 
+// let now = new Date();
+//
+// let date = new Date(now.getFullYear(), now.getMonth()
+//     - 1, now.getDate());
+// console.log(date.getDay());
 
+//324
 
 
 
